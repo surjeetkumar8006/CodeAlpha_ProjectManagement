@@ -1,5 +1,9 @@
 # NexusProject - Collaborative Kanban Board
 
+## 🔗 Live Demo
+Visit the live, production-deployed backend API & WebSocket server here:
+👉 **[NexusProject Live API](https://codealpha-projectmanagement-mvk4.onrender.com)**
+
 NexusProject is a high-fidelity, real-time collaborative project management application featuring workspaces, Kanban boards supporting HTML5 Drag & Drop, card details drawers, search/priority filter systems, and overdue task date highlighting.
 
 ## 🚀 Key Features
