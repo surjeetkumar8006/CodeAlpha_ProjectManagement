@@ -17,8 +17,8 @@ import {
 } from 'lucide-react';
 import './App.css';
 
-const API_URL = 'http://localhost:5002/api';
-const SOCKET_URL = 'http://localhost:5002';
+const API_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : 'http://localhost:5002/api';
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || import.meta.env.VITE_API_URL || 'http://localhost:5002';
 
 function App() {
   // Auth state
